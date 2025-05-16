@@ -2,8 +2,8 @@ package com.minispring.beans.factory.xml;
 
 import com.minispring.beans.BeansException;
 import com.minispring.beans.factory.support.BeanDefinitionRegistry;
-import org.dom4j.Element;
 
+import org.dom4j.Element;
 import java.util.HashMap;
 import java.util.Map;
 
