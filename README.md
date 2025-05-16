@@ -7,44 +7,15 @@
 
 项目结构：
 
-src/main/java/com/minispring/
-├── beans
-│   ├── factory
-│   │   ├── config
-│   │   │   ├── Scope相关接口和实现
-│   │   │   └── ...
-│   │   ├── support
-│   │   └── xml
-│   ├── BeansException.java
-│   ├── PropertyValue.java
-│   ├── PropertyValues.java
-│   └── ...
-├── context
-│   ├── event
-│   ├── support
-│   ├── ApplicationContext.java
-│   └── ...
-├── core
-│   ├── io
-│   ├── convert
-│   │   ├── converter
-│   │   ├── support
-│   │   └── ...
-│   └── ...
-├── aop
-│   ├── framework
-│   ├── aspectj
-│   ├── Advisor.java
-│   ├── PointcutAdvisor.java
-│   └── ...
-├── web
-│   ├── context
-│   │   ├── request
-│   │   │   ├── RequestScope.java
-│   │   │   ├── SessionScope.java
-│   │   │   └── ...
-│   │   └── ...
-│   └── ...
-└── util
-    └── ...
-核心功能： Mini-Spring实现了以下Spring核心功能： 1IoC容器：依赖注入和控制反转 ✅ 2AOP：面向切面编程 ✅ 3Bean生命周期管理：实例化、初始化、销毁 ✅ 4应用上下文：配置和环境管理 ✅ 5资源加载：类路径和文件系统资源 ✅ 6事件监听机制：发布订阅模式 ✅ 7类型转换：基本类型和自定义类型转换 ✅ 8Bean作用域：单例、原型及Web作用域 ✅ 9循环依赖支持✅
+![输入图片说明](image.png)
+核心功能： 
+Mini-Spring实现了以下Spring核心功能： 
+1.IoC容器：依赖注入和控制反转 ✅ 
+2.AOP：面向切面编程 ✅ 
+3.Bean生命周期管理：实例化、初始化、销毁 ✅ 
+4.应用上下文：配置和环境管理 ✅ 
+5.资源加载：类路径和文件系统资源 ✅ 
+6.事件监听机制：发布订阅模式 ✅ 
+7.类型转换：基本类型和自定义类型转换 ✅ 
+8.Bean作用域：单例、原型及Web作用域 ✅ 
+9.循环依赖支持✅
