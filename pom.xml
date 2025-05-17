@@ -15,8 +15,6 @@
         <junit.version>5.9.2</junit.version>
     </properties>
 
-
-
         <dependencies>
             <!-- JUnit 5 -->
             <dependency>
